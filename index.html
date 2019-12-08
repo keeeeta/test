@@ -12,6 +12,7 @@
         $(function () {
             $("#load_header").load("./include/header.html");
             $("#load_footer").load("./include/footer.html");
+            $('div').before('<h1>jqeuryで書く</h1>');
         });
     </script>
 </head>
@@ -20,6 +21,9 @@
     <header id="load_header" style="height: 10vh;"></header>
     <main>
         めいん！
+        <div>
+            div
+        </div>
     </main>
     <footer id="load_footer"></footer>
 </body>
